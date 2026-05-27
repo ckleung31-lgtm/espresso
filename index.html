@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Door Espresso</title>
+  <link rel="stylesheet" href="espresso.css" />
+</head>
+<body>
+
+<div class="container">
+  <div class="hero">
+    <h1 class="hero-title">Green Door Espresso</h1>
+    <p class="hero-subtitle">
+      Espresso extraction philosophies, flavour-focused recipes, and modern dial-in guidance.
+      <br><br>
+      義式濃縮沖煮哲學、現代萃取結構、與風味導向調整建議。
+    </p>
+  </div>
+
+  <div class="control-panel">
+    <div class="control-grid">
+      <div class="field">
+        <label>咖啡豆 · Coffee</label>
+        <select id="coffeeSelect"></select>
+      </div>
+      <div class="field">
+        <label>沖煮哲學 · Espresso Philosophy</label>
+        <select id="philosophySelect"></select>
+      </div>
+    </div>
+  </div>
+
+  <div id="result"></div>
+</div>
+
+<script src="espressoData.js"></script>
+<script src="espressoApp.js"></script>
+
+</body>
+</html>
